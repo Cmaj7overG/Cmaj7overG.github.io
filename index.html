@@ -165,27 +165,86 @@ var _hmt = _hmt || [];
           <div id="js-content" class="content-ll">
             
   
-    <article id="post-测试" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-Markdown" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2021/01/20/%E6%B5%8B%E8%AF%95/">测试</a>
+      <a class="article-title" href="/2021/01/20/Markdown/">Markdown撰写</a>
     </h1>
   
 
         
-        <a href="/2021/01/20/%E6%B5%8B%E8%AF%95/" class="archive-article-date">
-  	<time datetime="2021-01-20T08:02:48.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-01-20</time>
+        <a href="/2021/01/20/Markdown/" class="archive-article-date">
+  	<time datetime="2021-01-20T13:02:48.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-01-20</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <h2 id="Markdown标题"><a href="#Markdown标题" class="headerlink" title="Markdown标题"></a>Markdown标题</h2><p>照此类推</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># 这个是一级标题  </span><br><span class="line">## 这个是二级标题</span><br></pre></td></tr></table></figure>
+<h2 id="Markdown段落格式"><a href="#Markdown段落格式" class="headerlink" title="Markdown段落格式"></a>Markdown段落格式</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">段落换行使用两个以上空格加上回车</span><br><span class="line">**此为粗体**   *此为斜体*   ***此为粗斜体***</span><br><span class="line">下面这是分隔线</span><br><span class="line">***</span><br><span class="line">~~这个是删除线~~</span><br><span class="line">&lt;u&gt;这个是下划线&lt;&#x2F;u&gt;   </span><br><span class="line">脚注是对文本的补充说明，markdown格式如下</span><br><span class="line">创建脚注格式类似这样 [^RUNOOB]</span><br><span class="line">[^RUNOOB]: 菜鸟教程 -- 学的不仅是技术，更是梦想！！！</span><br></pre></td></tr></table></figure>
+<h2 id="Markdown列表"><a href="#Markdown列表" class="headerlink" title="Markdown列表"></a>Markdown列表</h2><p>无序列表用 * + 和 - 作为列表标记，标记后记得加一个空格<br>有序列表直接数字加上 . 就可以了</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">- 第一项 </span><br><span class="line">- 第二项 </span><br><span class="line">- 第三项</span><br><span class="line"></span><br><span class="line">1. 第一点</span><br><span class="line">2. 第二点</span><br><span class="line">3. 第三点</span><br></pre></td></tr></table></figure>
+<p>列表嵌套只需在子列表的选项前面添加四个空格即可</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">1. 第一项</span><br><span class="line">   - 第一项嵌套的第一个元素</span><br><span class="line">   - 第一项嵌套的第二个元素</span><br><span class="line">2. 第二项</span><br><span class="line">   - 以此类推</span><br><span class="line">3. 第三项</span><br><span class="line">   - 阿巴阿巴</span><br></pre></td></tr></table></figure>
+<h2 id="Markdown区块"><a href="#Markdown区块" class="headerlink" title="Markdown区块"></a>Markdown区块</h2><p>markdown 区块引用是在段落开头使用 <code>&gt;</code>符号，然后后面紧跟一个<strong>空格</strong>符号</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt; 起风了</span><br><span class="line">&gt; 唯有</span><br><span class="line">&gt; 努力生存</span><br></pre></td></tr></table></figure>
+<p>另外区块是可以嵌套的，一个<code>&gt;</code>符号是最外层，两个<code>&gt;</code>符号是第一层的嵌套，一次类推</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&gt; 最外层</span><br><span class="line">&gt; &gt; 第一层嵌套</span><br><span class="line">&gt; &gt;</span><br><span class="line">&gt; &gt; &gt; 第二层嵌套</span><br></pre></td></tr></table></figure>
+<p>区块中使用列表实例</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&gt; 区块中使用列表</span><br><span class="line">&gt; 1. 第一项</span><br><span class="line">&gt; 2. 第二项   &lt;!--有序--&gt;</span><br><span class="line">&gt; - 第一项</span><br><span class="line">&gt; - 第二项   &lt;!--无序--&gt;</span><br></pre></td></tr></table></figure>
+<p>列表中使用区块<br>在列表项目中放入区块，需要在<code>&gt;</code>前添加四个空格的缩进</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">- 第一项</span><br><span class="line">    &gt; 朱门酒肉臭</span><br><span class="line">    &gt; 路有冻死骨</span><br><span class="line">- 第二项</span><br></pre></td></tr></table></figure>
+<h2 id="Markdown-代码"><a href="#Markdown-代码" class="headerlink" title="Markdown 代码"></a>Markdown 代码</h2><p>如果是段落上的一个函数或片段的代码可以用反引号把它包起来(<code>`</code>)<br><code>printf()</code> 函数</p>
+<p>可以用 <strong>```</strong> 包裹一段代码，并指定一种语言（也可以不指定）：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">​&#96;&#96;&#96;javascript</span><br><span class="line">$(document).ready(function () &#123;</span><br><span class="line">    alert(&#39;RUNOOB&#39;);</span><br><span class="line">&#125;);</span><br><span class="line">​&#96;&#96;&#96;</span><br></pre></td></tr></table></figure>
+<h2 id="Markdown-链接"><a href="#Markdown-链接" class="headerlink" title="Markdown 链接"></a>Markdown 链接</h2><p>链接使用方法如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">[链接名称](链接地址)</span><br><span class="line"></span><br><span class="line">或者</span><br><span class="line"></span><br><span class="line">&lt;链接地址&gt;</span><br></pre></td></tr></table></figure>
+<img src="../assets/img/01.png" />   
+
+<p><strong>高级链接</strong><br>可以通过变量来设置一个链接，变量赋值在文档末尾进行：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">这个链接用 1 作为网址变量 [Google][1]</span><br><span class="line">这个链接用 runoob 作为网址变量 [Runoob][runoob]</span><br><span class="line">然后在文档的结尾为变量赋值（网址）</span><br><span class="line"></span><br><span class="line">  [1]: http:&#x2F;&#x2F;www.google.com&#x2F;</span><br><span class="line">  [runoob]: http:&#x2F;&#x2F;www.runoob.com&#x2F;</span><br></pre></td></tr></table></figure>
+<img src="../assets/img/02.png" />
+
+<h2 id="Markdown-图片"><a href="#Markdown-图片" class="headerlink" title="Markdown 图片"></a>Markdown 图片</h2><p>Markdown 图片语法格式如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">![alt 属性文本](图片地址)</span><br><span class="line"></span><br><span class="line">![alt 属性文本](图片地址 &quot;可选标题&quot;)</span><br></pre></td></tr></table></figure>
+<ul>
+<li>开头一个感叹号 !</li>
+<li>接着一个方括号，里面放上图片的替代文字</li>
+<li>接着一个普通括号，里面放上图片的网址，最后还可以用引号包住并加上选择性的 ‘title’ 属性的文字。<br>使用实例：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">![RUNOOB 图标](http:&#x2F;&#x2F;static.runoob.com&#x2F;images&#x2F;runoob-logo.png)</span><br><span class="line"></span><br><span class="line">![RUNOOB 图标](http:&#x2F;&#x2F;static.runoob.com&#x2F;images&#x2F;runoob-logo.png &quot;RUNOOB&quot;)</span><br></pre></td></tr></table></figure>
+<img src="../assets/img/03.png" />
+
+</li>
+</ul>
+<p>Markdown 还没有办法指定图片的高度与宽度，需要的话，可以使用普通的 <img> 标签。</p>
+<h2 id="Markdown-表格"><a href="#Markdown-表格" class="headerlink" title="Markdown 表格"></a>Markdown 表格</h2><p>Markdown 制作表格使用 <code>|</code> 来分隔不同的单元格，使用 <code>-</code> 来分隔表头和其他行。<br>语法格式如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">|  表头   | 表头  |</span><br><span class="line">|  ----  | ----  |</span><br><span class="line">| 单元格  | 单元格 |</span><br><span class="line">| 单元格  | 单元格 |</span><br></pre></td></tr></table></figure>
+<p>对齐方式<br><strong>可以设置表格的对齐方式</strong></p>
+<ul>
+<li><code>-:</code>设置内容和标题栏居右对齐。</li>
+<li><code>:-</code>设置内容和标题栏居左对齐。</li>
+<li><code>:-:</code>设置内容和标题居中对齐。</li>
+</ul>
+<h2 id="Markdown-高级技巧"><a href="#Markdown-高级技巧" class="headerlink" title="Markdown 高级技巧"></a>Markdown 高级技巧</h2><p><strong>支持的 HTML 元素</strong><br>不在 Markdown 涵盖范围之内的标签，都可以直接在文档里面用 HTML 写。<br>目前支持的 HTML 元素有：<kbd> <b> <i> <em> <sup> <sub> <br>等</p>
+<p><strong>转义</strong><br>Markdown 使用了很多特殊符号来表示特定的意义，如果需要显示特定的符号则需要使用转义字符，Markdown 使用反斜杠转义特殊字符。Markdown 支持以下这些符号前面加上反斜杠来帮助插入普通的符号：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">\   反斜线</span><br><span class="line">&#96;   反引号</span><br><span class="line">*   星号</span><br><span class="line">_   下划线</span><br><span class="line">&#123;&#125;  花括号</span><br><span class="line">[]  方括号</span><br><span class="line">()  小括号</span><br><span class="line">#   井字号</span><br><span class="line">+   加号</span><br><span class="line">-   减号</span><br><span class="line">.   英文句点</span><br><span class="line">!   感叹号</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+
+
+
+
+
+
+
       
 
       
@@ -193,11 +252,22 @@ var _hmt = _hmt || [];
     <div class="article-info article-info-index">
       
       
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">markdown</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
       
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2021/01/20/%E6%B5%8B%E8%AF%95/">展开全文 >></a>
+          <a class="article-more-a" href="/2021/01/20/Markdown/">展开全文 >></a>
         </p>
       
 
@@ -329,7 +399,7 @@ var _hmt = _hmt || [];
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h4 id="1-额外标签发"><a href="#1-额外标签发" class="headerlink" title="1).额外标签发"></a><strong>1).额外标签发</strong></h4><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">是W3C推荐的做法是通过在浮动元素末尾添加一个空的标签例如 <span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;clear:both&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span>，或则其他标签br等亦可。</span><br></pre></td></tr></table></figure>
+        <h4 id="1-额外标签发"><a href="#1-额外标签发" class="headerlink" title="1).额外标签发"></a>1).额外标签发</h4><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">是W3C推荐的做法是通过在浮动元素末尾添加一个空的标签例如 <span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;clear:both&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span>，或则其他标签br等亦可。</span><br></pre></td></tr></table></figure>
 <ul>
 <li>优点：通俗易懂，书写方便</li>
 <li>缺点：添加无意义的标签，结构化较差</li>
@@ -479,6 +549,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">css</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">markdown</a>
               </li>
             
             <div class="clearfix"></div>
