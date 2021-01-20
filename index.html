@@ -162,12 +162,15 @@ var _hmt = _hmt || [];
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="CSS属性书写顺序-重点"><a href="#CSS属性书写顺序-重点" class="headerlink" title="CSS属性书写顺序(重点)"></a>CSS属性书写顺序(重点)</h2><p>建议遵循以下顺序：</p>
+        <blockquote>
+<h2 id="CSS属性书写顺序-重点"><a href="#CSS属性书写顺序-重点" class="headerlink" title="CSS属性书写顺序(重点)"></a>CSS属性书写顺序(重点)</h2></blockquote>
+<p>建议遵循以下顺序：</p>
 <ol>
 <li>布局定位属性：display / position / float / clear / visibility / overflow（建议 display 第一个写，毕竟关系到模式）</li>
 <li>自身属性：width / height / margin / padding / border / background</li>
 <li>文本属性：color / font / text-decoration / text-align / vertical-align / white- space / break-word</li>
-<li>其他属性（CSS3）：content / cursor / border-radius / box-shadow / text-shadow / background:linear-gradient …
+<li>其他属性（CSS3）：content / cursor / border-radius / box-shadow / text-shadow / background:linear-gradient …</li>
+</ol>
         
           <a class="article-more-a" href="/2021/01/19/CSS%E5%B1%9E%E6%80%A7%E4%B9%A6%E5%86%99%E9%A1%BA%E5%BA%8F(%E9%87%8D%E7%82%B9)/#more">more >></a>
         
@@ -217,7 +220,9 @@ var _hmt = _hmt || [];
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="清除浮动的办法"><a href="#清除浮动的办法" class="headerlink" title="清除浮动的办法"></a>清除浮动的办法</h2><h4 id="1-额外标签发"><a href="#1-额外标签发" class="headerlink" title="1).额外标签发"></a><strong>1).额外标签发</strong></h4><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">是W3C推荐的做法是通过在浮动元素末尾添加一个空的标签例如 <span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;clear:both&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span>，或则其他标签br等亦可。</span><br></pre></td></tr></table></figure>
+        <blockquote>
+<h2 id="清除浮动的办法"><a href="#清除浮动的办法" class="headerlink" title="清除浮动的办法"></a>清除浮动的办法</h2></blockquote>
+<h4 id="1-额外标签发"><a href="#1-额外标签发" class="headerlink" title="1).额外标签发"></a><strong>1).额外标签发</strong></h4><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">是W3C推荐的做法是通过在浮动元素末尾添加一个空的标签例如 <span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;clear:both&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span>，或则其他标签br等亦可。</span><br></pre></td></tr></table></figure>
 <ul>
 <li>优点：通俗易懂，书写方便</li>
 <li>缺点：添加无意义的标签，结构化较差</li>
