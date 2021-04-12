@@ -224,7 +224,98 @@
 
 <article class="about-content page-content mt-5">
   <div class="markdown-body">
-    
+    <!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <style type="text/css">
+    .banxin {
+      width: 445px;
+      margin: 0 auto;
+    }
+    button {
+      background-color:#E0E5EC;
+      border: none;
+      border-radius: 6px;
+      box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px rgba(255,255,255, 0.5);
+      color: #4D3252;
+      font-weight: 700;
+      height: 96px;
+      margin-bottom: 48px;
+      margin-right: 48px;
+      overflow: hidden;
+      position: relative;
+      text-transform: uppercase;
+      width: 96px;
+    }
+
+<pre><code>button:after &#123;
+  content: &quot;&quot;;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 100%;
+  opacity: 0;
+  transform: translateX(-100%);
+
+  background: rgba(255, 255, 255, 0.13);
+  background: linear-gradient(
+    to right, 
+    rgba(255, 255, 255, 0.13) 0%,
+    rgba(255, 255, 255, 0.13) 77%,
+    rgba(255, 255, 255, 0.5) 92%,
+    rgba(255, 255, 255, 0.3) 100%
+  );
+&#125;
+
+button:hover:after &#123;
+  opacity: 1;
+  top: 0;
+  left: 0;
+  transform: translateX(0);
+  transition-property: transform, opacity;
+  transition-duration: 0.7s, 0.15s;
+  transition-timing-function: ease;
+&#125;
+
+button:active:after &#123;
+  opacity: 0;
+&#125;
+a &#123;
+  display: inline-block;
+&#125;</code></pre>
+<p>  </style><br>  <base target="_blank" /></p>
+</head>
+<body>
+  <div class="banxin">
+    <div class="multi-button">
+      <a target="_blank" rel="noopener" href="https://objectstorage.ap-seoul-1.oraclecloud.com/n/cnup2vyqrizu/b/background-20210411-2122/o/index.html">
+        <button>壁纸站</button>
+      </a>
+      <a target="_blank" rel="noopener" href="https://broken-water-8b3c.penf.workers.dev/">
+        <button>GD盘</button>
+      </a>
+      <a target="_blank" rel="noopener" href="https://www.notion.so/penf">
+        <button>Notion</button>
+      </a>
+    </div>
+    <div class="multi-button">
+      <a target="_blank" rel="noopener" href="http://v2ray.penfcloud.ltd:65432">
+        <button>v2ray管理</button>
+      </a>
+      <a target="_blank" rel="noopener" href="https://www.oracle.com/cloud">
+        <button>白嫖vps</button>
+      </a>
+      <a target="_blank" rel="noopener" href="http://iissnan.com/progit/">
+        <button>git</button>
+      </a>
+    </div>
+  </div>
+</body>
+</html>
   </div>
 
   
