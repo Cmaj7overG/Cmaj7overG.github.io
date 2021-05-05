@@ -236,28 +236,28 @@ Markdown 段落格式123456789段落换行使用两个以上空格加上回车**
     
     
       <div class="col-12 col-md-4 m-auto index-img">
-        <a href="/2021/01/20/%E6%B8%85%E9%99%A4%E6%B5%AE%E5%8A%A8%E7%9A%84%E5%8A%9E%E6%B3%95/" target="_self">
-          <img src="https://uploads-ssl.webflow.com/5d3a7aed4e11720246d46f49/5ec7b9f386cd2e35473558d8_CSS%20logo-p-1080.jpeg" srcset="/img/loading.gif" lazyload alt="清除浮动的办法">
+        <a href="/2021/01/20/CSS%E5%B1%9E%E6%80%A7%E4%B9%A6%E5%86%99%E9%A1%BA%E5%BA%8F(%E9%87%8D%E7%82%B9)/" target="_self">
+          <img src="https://uploads-ssl.webflow.com/5d3a7aed4e11720246d46f49/5ec7b9f386cd2e35473558d8_CSS%20logo-p-1080.jpeg" srcset="/img/loading.gif" lazyload alt="CSS属性书写顺序">
         </a>
       </div>
     
     <article class="col-12 col-md-8 mx-auto index-info">
       <h1 class="index-header">
         
-        <a href="/2021/01/20/%E6%B8%85%E9%99%A4%E6%B5%AE%E5%8A%A8%E7%9A%84%E5%8A%9E%E6%B3%95/">清除浮动的办法</a>
+        <a href="/2021/01/20/CSS%E5%B1%9E%E6%80%A7%E4%B9%A6%E5%86%99%E9%A1%BA%E5%BA%8F(%E9%87%8D%E7%82%B9)/">CSS属性书写顺序</a>
       </h1>
 
       <p class="index-excerpt">
-        <a href="/2021/01/20/%E6%B8%85%E9%99%A4%E6%B5%AE%E5%8A%A8%E7%9A%84%E5%8A%9E%E6%B3%95/">
+        <a href="/2021/01/20/CSS%E5%B1%9E%E6%80%A7%E4%B9%A6%E5%86%99%E9%A1%BA%E5%BA%8F(%E9%87%8D%E7%82%B9)/">
           
           
             
           
-          1).额外标签发1是W3C推荐的做法是通过在浮动元素末尾添加一个空的标签例如 &lt;div style=&quot;clear:both&quot;&gt;&lt;/div&gt;，或则其他标签br等亦可。
+          建议遵循以下顺序：
 
-优点：通俗易懂，书写方便
-缺点：添加无意义的标签，结构化较差
-
+布局定位属性：display / position / float / clear / visibility / overflow（建议 display 第一个写，毕竟关系到模式）
+自身属性：width / height / margin / padding / border / background
+文本属性：color / font / text-decoration /
         </a>
       </p>
 
@@ -354,28 +354,28 @@ Markdown 段落格式123456789段落换行使用两个以上空格加上回车**
     
     
       <div class="col-12 col-md-4 m-auto index-img">
-        <a href="/2021/01/20/CSS%E5%B1%9E%E6%80%A7%E4%B9%A6%E5%86%99%E9%A1%BA%E5%BA%8F(%E9%87%8D%E7%82%B9)/" target="_self">
-          <img src="https://uploads-ssl.webflow.com/5d3a7aed4e11720246d46f49/5ec7b9f386cd2e35473558d8_CSS%20logo-p-1080.jpeg" srcset="/img/loading.gif" lazyload alt="CSS属性书写顺序">
+        <a href="/2021/01/20/%E6%B8%85%E9%99%A4%E6%B5%AE%E5%8A%A8%E7%9A%84%E5%8A%9E%E6%B3%95/" target="_self">
+          <img src="https://uploads-ssl.webflow.com/5d3a7aed4e11720246d46f49/5ec7b9f386cd2e35473558d8_CSS%20logo-p-1080.jpeg" srcset="/img/loading.gif" lazyload alt="清除浮动的办法">
         </a>
       </div>
     
     <article class="col-12 col-md-8 mx-auto index-info">
       <h1 class="index-header">
         
-        <a href="/2021/01/20/CSS%E5%B1%9E%E6%80%A7%E4%B9%A6%E5%86%99%E9%A1%BA%E5%BA%8F(%E9%87%8D%E7%82%B9)/">CSS属性书写顺序</a>
+        <a href="/2021/01/20/%E6%B8%85%E9%99%A4%E6%B5%AE%E5%8A%A8%E7%9A%84%E5%8A%9E%E6%B3%95/">清除浮动的办法</a>
       </h1>
 
       <p class="index-excerpt">
-        <a href="/2021/01/20/CSS%E5%B1%9E%E6%80%A7%E4%B9%A6%E5%86%99%E9%A1%BA%E5%BA%8F(%E9%87%8D%E7%82%B9)/">
+        <a href="/2021/01/20/%E6%B8%85%E9%99%A4%E6%B5%AE%E5%8A%A8%E7%9A%84%E5%8A%9E%E6%B3%95/">
           
           
             
           
-          建议遵循以下顺序：
+          1).额外标签发1是W3C推荐的做法是通过在浮动元素末尾添加一个空的标签例如 &lt;div style=&quot;clear:both&quot;&gt;&lt;/div&gt;，或则其他标签br等亦可。
 
-布局定位属性：display / position / float / clear / visibility / overflow（建议 display 第一个写，毕竟关系到模式）
-自身属性：width / height / margin / padding / border / background
-文本属性：color / font / text-decoration /
+优点：通俗易懂，书写方便
+缺点：添加无意义的标签，结构化较差
+
         </a>
       </p>
 
